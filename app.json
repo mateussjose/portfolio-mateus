@@ -2,6 +2,7 @@
   "expo": {
     "name": "portfolio-mateus",
     "slug": "portfolio-mateus",
+    "owner": "mateusjoses-team",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -37,6 +38,22 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "86dd9333-ad58-48b9-8155-af5d561013d8"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/86dd9333-ad58-48b9-8155-af5d561013d8"
     }
   }
 }
